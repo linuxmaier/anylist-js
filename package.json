@@ -19,7 +19,8 @@
     "test": "mocha 'test/**/*.test.js'",
     "lint": "xo",
     "lint-fix": "xo --fix",
-    "document": "documentation build lib/index.js -f html -o docs"
+    "document": "documentation build lib/index.js -f html -o docs",
+    "test:unit": "mocha 'test/**/*.unit.test.js'"
   },
   "dependencies": {
     "form-data": "^3.0.5",
